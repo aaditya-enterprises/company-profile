@@ -25,9 +25,7 @@ export default function Component() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="bg-orange-600 text-white p-2 rounded-lg">
-                <Building2 className="h-6 w-6" />
-              </div>
+              <img src="/logo.png" alt="Aaditya Enterprises Logo" className="h-12 w-auto" />
               <div>
                 <h1 className="text-xl font-bold text-gray-900">AADITYA ENTERPRISES</h1>
                 <p className="text-sm text-gray-600">Professional Outsourcing Solutions</p>
@@ -394,20 +392,18 @@ export default function Component() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8">
+      <footer className="bg-white border-t border-gray-200 text-gray-900 py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
-              <div className="bg-orange-600 text-white p-2 rounded-lg">
-                <Building2 className="h-6 w-6" />
-              </div>
+              <img src="/logo.png" alt="Aaditya Enterprises Logo" className="h-10 w-auto" />
               <div>
                 <h3 className="font-bold">AADITYA ENTERPRISES</h3>
-                <p className="text-sm text-gray-400">Professional Outsourcing Solutions</p>
+                <p className="text-sm text-gray-600">Professional Outsourcing Solutions</p>
               </div>
             </div>
             <div className="text-center md:text-right">
-              <p className="text-sm text-gray-400">
+              <p className="text-sm text-gray-600">
                 © {new Date().getFullYear()} Aaditya Enterprises. All rights reserved.
               </p>
             </div>
