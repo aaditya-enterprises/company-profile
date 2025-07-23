@@ -25,7 +25,7 @@ export default function Component() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <img src="/logo.png" alt="Aaditya Enterprises Logo" className="h-16 w-auto" />
+              <img src="/logo.png" alt="Aaditya Enterprises Logo" className="h-20 w-auto" />
               <div>
                 <h1 className="text-xl font-bold text-gray-900">AADITYA ENTERPRISES</h1>
                 <p className="text-sm text-gray-600">Professional Outsourcing Solutions</p>
@@ -396,7 +396,7 @@ export default function Component() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
-              <img src="/logo.png" alt="Aaditya Enterprises Logo" className="h-14 w-auto" />
+              <img src="/logo.png" alt="Aaditya Enterprises Logo" className="h-18 w-auto" />
               <div>
                 <h3 className="font-bold">AADITYA ENTERPRISES</h3>
                 <p className="text-sm text-gray-600">Professional Outsourcing Solutions</p>
